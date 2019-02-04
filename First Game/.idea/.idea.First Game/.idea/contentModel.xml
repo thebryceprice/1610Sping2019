@@ -6,7 +6,9 @@
     <e p="D:\Git\1610Sping2019\First Game" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Animal.cs" t="Include" />
         <e p="HelicopterEvent.cs" t="Include" />
+        <e p="Pig.cs" t="Include" />
       </e>
       <e p="First Game.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
