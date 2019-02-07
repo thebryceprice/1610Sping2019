@@ -39,16 +39,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Pig.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state>
+              <caret selection-end-line="2" selection-end-column="18" />
               <folding>
-                <marker date="1549303097127" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549303097127" expanded="true" signature="6:78" ph="..." />
                 <marker date="1549303097127" expanded="true" signature="105:317" ph="{...}" />
                 <marker date="1549303097127" expanded="true" signature="215:236" ph="{...}" />
                 <marker date="1549303097127" expanded="true" signature="294:315" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Bird.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <marker date="1549520835677" expanded="true" signature="6:78" ph="..." />
+                <marker date="1549520835677" expanded="true" signature="106:318" ph="{...}" />
+                <marker date="1549520835677" expanded="true" signature="216:237" ph="{...}" />
+                <marker date="1549520835677" expanded="true" signature="295:316" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -63,6 +78,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Pig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HelicopterEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Animal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bird.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,12 +86,13 @@
         <option value="$PROJECT_DIR$/Assets/HelicopterEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Animal.cs" />
         <option value="$PROJECT_DIR$/Assets/Pig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Bird.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-18" />
-    <option name="y" value="17" />
+    <option name="x" value="-19" />
+    <option name="y" value="16" />
     <option name="width" value="1440" />
     <option name="height" value="845" />
   </component>
@@ -88,11 +105,11 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -139,11 +156,12 @@
       <updated>1549016103496</updated>
       <workItem from="1549016107952" duration="630000" />
       <workItem from="1549301778520" duration="1920000" />
+      <workItem from="1549520701522" duration="175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2550000" />
+    <option name="totallyTimeSpent" value="2725000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -157,7 +175,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18657719" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18926175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -228,13 +246,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Pig.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="18" />
           <folding>
-            <marker date="1549303097127" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549303097127" expanded="true" signature="6:78" ph="..." />
             <marker date="1549303097127" expanded="true" signature="105:317" ph="{...}" />
             <marker date="1549303097127" expanded="true" signature="215:236" ph="{...}" />
             <marker date="1549303097127" expanded="true" signature="294:315" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Bird.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <marker date="1549520835677" expanded="true" signature="6:78" ph="..." />
+            <marker date="1549520835677" expanded="true" signature="106:318" ph="{...}" />
+            <marker date="1549520835677" expanded="true" signature="216:237" ph="{...}" />
+            <marker date="1549520835677" expanded="true" signature="295:316" ph="{...}" />
           </folding>
         </state>
       </provider>

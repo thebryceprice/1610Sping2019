@@ -974,6 +974,8 @@ GameObject:
   - component: {fileID: 1258675344}
   - component: {fileID: 1258675343}
   - component: {fileID: 1258675342}
+  - component: {fileID: 1258675346}
+  - component: {fileID: 1258675345}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -1070,6 +1072,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1258675345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258675341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cff5326d035d344c8807311e638be99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  SkinColor: {r: 0, g: 0, b: 0, a: 0}
+  WingColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1258675346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258675341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca71ffdaf9580e24fa1f0ff62aae4e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  SkinColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1349871094
 GameObject:
   m_ObjectHideFlags: 0
