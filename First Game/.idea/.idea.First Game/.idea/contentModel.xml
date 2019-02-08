@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Animal.cs" t="Include" />
         <e p="Bird.cs" t="Include" />
+        <e p="Frog.cs" t="Include" />
         <e p="HelicopterEvent.cs" t="Include" />
         <e p="Pig.cs" t="Include" />
       </e>
