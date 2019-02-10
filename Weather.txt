@@ -1,1 +1,9 @@
+<<<<<<< Updated upstream
 Provo 31,91% humidity
+=======
+<<<<<<< HEAD
+Henderson 45,48% humidity
+=======
+Provo 30, 54% humidity
+>>>>>>> master
+>>>>>>> Stashed changes
