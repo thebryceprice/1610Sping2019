@@ -10,7 +10,7 @@ public class Pig : Animal
     // Start is called before the first frame update
     void Start()
     {
-        print("Hello, World!");
+        GetComponent<SpriteRenderer>().color = SkinColor;
     }
 
     // Update is called once per frame
