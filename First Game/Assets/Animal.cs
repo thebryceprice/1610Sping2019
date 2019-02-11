@@ -11,12 +11,12 @@ public class Animal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Do work
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //Do work
     }
 }
