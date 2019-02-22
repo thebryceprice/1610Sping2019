@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager.Requests;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Experimental.UIElements;
@@ -12,6 +13,7 @@ public class MonoEvents : MonoBehaviour
     void Start()
     {
         StartEvent.Invoke();
+        
     }
     
     private void OnEnable()
