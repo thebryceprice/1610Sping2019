@@ -34,4 +34,21 @@ public class MoveCharacter : MonoBehaviour
         
         controller.Move(position);
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Ammo Pick Up"))
+        {
+            other.gameObject.SetActive(false);
+        }
+
+        if (other.gameObject.CompareTag("Health Pick Up"))
+        {
+            other.gameObject.SetActive(false);
+        }
+    }
 }
+//
+//Destroy(other.gameObject);
+//if (other.gameObject.CompareTag("Player"))
+   // gameObject.SetActive(false);
