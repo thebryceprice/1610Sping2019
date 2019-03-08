@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class Pickup : MonoBehaviour
 {
     public UnityEvent ammoEvent;
+    public UnityEvent healthPackEvent;
     
     void OnTriggerEnter(Collider other)
     {
@@ -18,6 +19,7 @@ public class Pickup : MonoBehaviour
         if (other.gameObject.CompareTag("Health Pick Up"))
         {
             other.gameObject.SetActive(false);
+            healthPackEvent.Invoke();
         }
     }
 }

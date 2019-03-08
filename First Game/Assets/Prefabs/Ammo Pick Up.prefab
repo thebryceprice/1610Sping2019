@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4440869456737170527}
   m_Layer: 0
   m_Name: Ammo Pick Up
-  m_TagString: Pick Up
+  m_TagString: Ammo Pick Up
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: c9b21d03a533aa0499316df1a273efb1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9868788, g: 1, b: 0.6556604, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4440869456737170512}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26bd0e0a761daef4c8d822be6198dfdc, type: 3}
   m_Name: 

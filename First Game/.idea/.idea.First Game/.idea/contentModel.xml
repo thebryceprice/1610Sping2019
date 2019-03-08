@@ -8,17 +8,20 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AmmoValue.cs" t="Include" />
-          <e p="Animal.cs" t="Include" />
-          <e p="Bird.cs" t="Include" />
           <e p="ConditionalsInClass.cs" t="Include" />
-          <e p="Frog.cs" t="Include" />
           <e p="HelicopterEvent.cs" t="Include" />
-          <e p="Mammal.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
           <e p="Pickup.cs" t="Include" />
-          <e p="Pig.cs" t="Include" />
+          <e p="PlayerHealth.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
+          <e p="Practice" t="Include">
+            <e p="Animal.cs" t="Include" />
+            <e p="Bird.cs" t="Include" />
+            <e p="Frog.cs" t="Include" />
+            <e p="Mammal.cs" t="Include" />
+            <e p="Pig.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="First Game.sln" t="IncludeFlat" />
