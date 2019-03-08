@@ -1566,7 +1566,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 50
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6411,8 +6411,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 18.919996, y: 0.37298825, z: 0.2}
-  m_Center: {x: -2.1714089e-12, y: -0.13350588, z: 0}
+  m_Size: {x: 18.919996, y: 0.37298825, z: 0.84779984}
+  m_Center: {x: 6.616343e-11, y: -0.1335059, z: -0.14267083}
 --- !u!212 &693995871
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7170,7 +7170,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 120
@@ -12583,6 +12583,7 @@ GameObject:
   - component: {fileID: 1642696220}
   - component: {fileID: 1642696219}
   - component: {fileID: 1642696218}
+  - component: {fileID: 1642696224}
   m_Layer: 0
   m_Name: Noir Character
   m_TagString: Untagged
@@ -12612,7 +12613,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  Speed: 50
+  jumpSpeed: 50
+  gravity: 100
+  Speed: 1000
 --- !u!143 &1642696219
 CharacterController:
   m_ObjectHideFlags: 0
@@ -12624,13 +12627,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 7.99
+  m_Height: 12
   m_Radius: 1.78
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -1.35, z: 0}
 --- !u!54 &1642696220
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12658,8 +12661,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.56, y: 7.99, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.56, y: 10.944951, z: 0.2}
+  m_Center: {x: 0, y: -1.477479, z: 0}
 --- !u!212 &1642696222
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12723,6 +12726,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1642696224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642696217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c3a1c7e3b10ea428a2d8ee27f8daf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2008442807}
+        m_MethodName: ChangeAmmoAmount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2008442807}
+        m_MethodName: Display
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1703690335
 GameObject:
   m_ObjectHideFlags: 0
@@ -13008,6 +13050,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  jumpSpeed: 8
+  gravity: 20
   Speed: 3
 --- !u!54 &1778158840
 Rigidbody:
@@ -13418,6 +13462,7 @@ GameObject:
   - component: {fileID: 2008442804}
   - component: {fileID: 2008442806}
   - component: {fileID: 2008442805}
+  - component: {fileID: 2008442807}
   m_Layer: 5
   m_Name: Ammo
   m_TagString: Untagged
@@ -13486,6 +13531,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008442803}
   m_CullTransparentMesh: 0
+--- !u!114 &2008442807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008442803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0053f2040430684fab4d935fa83afb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammo: 0
 --- !u!1 &2043311009
 GameObject:
   m_ObjectHideFlags: 0
@@ -13674,7 +13732,7 @@ BoxCollider:
   m_GameObject: {fileID: 2091761451}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.73, y: 3.2830076, z: 0.2}
   m_Center: {x: 0, y: -0.21849632, z: 0}
