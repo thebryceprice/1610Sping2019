@@ -17,3 +17,6 @@ public class AmmoValue : MonoBehaviour
         GetComponent<Text>().text = ammo.ToString();
     }
 }
+
+//NEED TO DO
+//    Reduce AmmoValue on "Shoot" script (not created yet) by -1

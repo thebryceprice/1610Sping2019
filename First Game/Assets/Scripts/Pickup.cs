@@ -7,6 +7,7 @@ public class Pickup : MonoBehaviour
 {
     public UnityEvent ammoEvent;
     public UnityEvent healthPackEvent;
+    public UnityEvent bulletEvent;
     
     void OnTriggerEnter(Collider other)
     {
@@ -20,6 +21,12 @@ public class Pickup : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             healthPackEvent.Invoke();
+        }
+
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            other.gameObject.SetActive(false);
+            bulletEvent.Invoke();
         }
     }
 }

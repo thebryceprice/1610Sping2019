@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AmmoValue.cs" t="Include" />
+          <e p="BulletDamage.cs" t="Include" />
           <e p="ConditionalsInClass.cs" t="Include" />
           <e p="HealthPackValue.cs" t="Include" />
           <e p="HelicopterEvent.cs" t="Include" />

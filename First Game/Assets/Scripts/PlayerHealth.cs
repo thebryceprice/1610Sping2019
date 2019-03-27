@@ -16,3 +16,8 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = startingHealth;
     }
 }
+
+
+
+//NEED TO DO
+//    Sync and Update with "HealthBar" HUD display
