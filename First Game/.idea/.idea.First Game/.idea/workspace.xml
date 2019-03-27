@@ -10,7 +10,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -24,12 +24,30 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthPackValue.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+              <folding>
+                <marker date="1553663683321" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553663683321" expanded="true" signature="124:298" ph="{...}" />
+                <marker date="1553663683321" expanded="true" signature="196:217" ph="{...}" />
+                <marker date="1553663683321" expanded="true" signature="275:296" ph="{...}" />
+                <marker date="1553663683321" expanded="true" signature="300:378" ph="/* on pickup add 20 Health ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AmmoValue.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="25" selection-start-column="25" selection-end-column="25" />
               <folding>
+                <marker date="1552016833990" expanded="true" signature="6:100" ph="..." />
+                <marker date="1552016833990" expanded="true" signature="140:347" ph="{...}" />
                 <marker date="1552016833990" expanded="true" signature="213:253" ph="{...}" />
                 <marker date="1552016833990" expanded="true" signature="280:345" ph="{...}" />
               </folding>
@@ -51,6 +69,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HelicopterEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ConditionalsInClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthPackValue.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -72,14 +91,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AmmoValue.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthPackValue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthPackValue.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="151" />
-    <option name="y" value="101" />
+    <option name="x" value="150" />
+    <option name="y" value="100" />
     <option name="width" value="1545" />
     <option name="height" value="900" />
   </component>
@@ -91,6 +110,9 @@
     <panes>
       <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -108,9 +130,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -175,11 +194,12 @@
       <workItem from="1551984076976" duration="2920000" />
       <workItem from="1552005659396" duration="10198000" />
       <workItem from="1552626646484" duration="25000" />
+      <workItem from="1553663403205" duration="378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39440000" />
+    <option name="totallyTimeSpent" value="39818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -193,7 +213,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24161074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24496645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -337,18 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthPackValue.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AmmoValue.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-          <folding>
-            <marker date="1552016833990" expanded="true" signature="213:253" ph="{...}" />
-            <marker date="1552016833990" expanded="true" signature="280:345" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -357,6 +365,33 @@
             <marker date="1552626654304" expanded="false" signature="6:195" ph="..." />
             <marker date="1552626654304" expanded="true" signature="238:379" ph="{...}" />
             <marker date="1552626654304" expanded="true" signature="325:377" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AmmoValue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <marker date="1552016833990" expanded="true" signature="6:100" ph="..." />
+            <marker date="1552016833990" expanded="true" signature="140:347" ph="{...}" />
+            <marker date="1552016833990" expanded="true" signature="213:253" ph="{...}" />
+            <marker date="1552016833990" expanded="true" signature="280:345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthPackValue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <marker date="1553663683321" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553663683321" expanded="true" signature="124:298" ph="{...}" />
+            <marker date="1553663683321" expanded="true" signature="196:217" ph="{...}" />
+            <marker date="1553663683321" expanded="true" signature="275:296" ph="{...}" />
+            <marker date="1553663683321" expanded="true" signature="300:378" ph="/* on pickup add 20 Health ... */" />
           </folding>
         </state>
       </provider>
