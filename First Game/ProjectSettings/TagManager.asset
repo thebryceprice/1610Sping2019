@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Ammo Pick Up
   - Health Pick Up
-  - Bullet
+  - Money Pick Up
   layers:
   - Default
   - TransparentFX

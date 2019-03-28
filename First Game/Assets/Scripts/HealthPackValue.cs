@@ -1,32 +1,19 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthPackValue : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
+    public int health;
 
-    void Update()
+    public void ChangeHealthAmount(int healthAmount)
     {
-        
+        health += healthAmount;
     }
 }
 
-
-//public int healthpack;
-//
-//public void ChangePlayerHealth(int playerHealth)
-//{
-//    healthpack += PlayerHealth
-//}
-
-
-
-
-
 //NEED TO DO
-//    Call "Pickup" script
+//    Figure out how to add function under "Player" object that ties Health Pack Event to PlayerHealth
 //    On pickup, update "PlayerHealth" +20 Health

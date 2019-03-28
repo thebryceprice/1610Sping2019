@@ -8,15 +8,20 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int startingHealth = 150;
+    public int startingHealth = 100;
     public int currentHealth;
+    public Slider healthBar;
 
-    void Awake()
+    void Start()
     {
         currentHealth = startingHealth;
     }
+    
+    public void Display()
+    {
+        healthBar.value = currentHealth;
+    }
 }
-
 
 
 //NEED TO DO
