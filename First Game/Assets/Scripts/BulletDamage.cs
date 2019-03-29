@@ -1,17 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class NewBehaviourScript2 : MonoBehaviour
+
+public class BulletDamage : MonoBehaviour
 {
-    void Start()
+    public int damage;
+    public UnityEvent healthEvent;
+    
+    public void ChangeCurrentHealthAmount(int currentHealthAmount)
     {
-        
+        damage -= currentHealthAmount;
     }
 
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            //GetComponent<PlayerHealth>().currentHealth = damage.ToString();
+            healthEvent.Invoke();
+        }
     }
 }
 
@@ -19,4 +28,4 @@ public class NewBehaviourScript2 : MonoBehaviour
 
 
 //NEED TO DO
-//    "Bullet" box-colliders remove -30 Health from "PlayerHealth"
+//    "Bullet" box-colliders remove -20 Health from "PlayerHealth"

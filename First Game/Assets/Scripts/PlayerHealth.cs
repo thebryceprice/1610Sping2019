@@ -2,24 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Experimental.UIElements;
 using Slider = UnityEngine.UI.Slider;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int startingHealth = 100;
     public int currentHealth;
-    public Slider healthBar;
+    //public Slider healthBar;
 
-    void Start()
+    private void Awake()
     {
-        currentHealth = startingHealth;
-    }
-    
-    public void Display()
-    {
-        healthBar.value = currentHealth;
+        currentHealth = 100;
     }
 }
 

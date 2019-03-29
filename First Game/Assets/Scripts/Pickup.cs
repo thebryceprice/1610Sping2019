@@ -9,7 +9,7 @@ public class Pickup : MonoBehaviour
     public UnityEvent ammoEvent;
     public UnityEvent healthPackEvent;
     public UnityEvent moneyEvent;
-    //public UnityEvent bulletEvent;
+    public UnityEvent bulletEvent;
     
     void OnTriggerEnter(Collider other)
     {
@@ -30,15 +30,10 @@ public class Pickup : MonoBehaviour
             other.gameObject.SetActive(false);
             moneyEvent.Invoke();
         }
-
-        //^ why wont this work?
-        
-        
-        
-        //if (other.gameObject.CompareTag("Bullet"))
-        //{
-        //    other.gameObject.SetActive(false);
-        //    bulletEvent.Invoke();
-        //}
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            other.gameObject.SetActive(false);
+            bulletEvent.Invoke();
+        }
     }
 }
