@@ -1,31 +1,25 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
-
+using UnityEngine.UI;
 
 public class BulletDamage : MonoBehaviour
 {
     public int damage;
-    public UnityEvent healthEvent;
-    
-    public void ChangeCurrentHealthAmount(int currentHealthAmount)
-    {
-        damage -= currentHealthAmount;
-    }
 
-    void OnTriggerEnter(Collider other)
+    //other is what the bullet is colliding with
+    public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Bullet"))
+        //if the variable "other" is has PlayerHealth...
+        if (other.GetComponent<PlayerHealth>() != null)
         {
-            //GetComponent<PlayerHealth>().currentHealth = damage.ToString();
-            healthEvent.Invoke();
+            //Calling Player health and then changing Player health variable
+            other.GetComponent<PlayerHealth>().health -= damage;
         }
+
+        
+        //Setting Bullet object to be inactive
+        gameObject.SetActive(false);
     }
 }
-
-
-
-
-//NEED TO DO
-//    "Bullet" box-colliders remove -20 Health from "PlayerHealth"

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Experimental.UIElements;
@@ -9,15 +10,18 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int currentHealth;
-    //public Slider healthBar;
+    public int health;
 
-    private void Awake()
+    private void Start()
     {
-        currentHealth = 100;
+        health = 100;
     }
+
+        
+
+ //Showing Current Health on Health Bar Slider
+    //private void Update()
+    //{
+    //    GetComponent<Slider>(healthBar).value = health;
+    //}
 }
-
-
-//NEED TO DO
-//    Sync and Update with "HealthBar" HUD display

@@ -25,14 +25,14 @@ public class MoveCharacter : MonoBehaviour
 
     void Update()
     {
-        if (controller.isGrounded)
+/*        if (controller.isGrounded)
         {
             OnGrounded.Invoke();
         }
         else
         {
             OffGrounded.Invoke();
-        }
+        }*/
 
         //position.y = Input.GetAxis("Vertical")*Speed*Time.deltaTime;
         position.x = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
