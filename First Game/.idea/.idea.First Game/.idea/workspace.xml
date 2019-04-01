@@ -14,12 +14,12 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
-                <marker date="1553902911000" expanded="false" signature="6:278" ph="..." />
-                <marker date="1553902911000" expanded="true" signature="321:568" ph="{...}" />
-                <marker date="1553902911000" expanded="true" signature="372:406" ph="{...}" />
-                <marker date="1553902911000" expanded="true" signature="419:566" ph="/* Showing Current Health on Health Bar Slider ... */" />
+                <marker date="1554091642318" expanded="true" signature="6:278" ph="..." />
+                <marker date="1554091642318" expanded="true" signature="321:515" ph="{...}" />
+                <marker date="1554091642318" expanded="true" signature="404:438" ph="{...}" />
+                <marker date="1554091642318" expanded="true" signature="464:513" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -28,10 +28,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BulletDamage.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="270">
               <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
-                <marker date="1553915881505" expanded="true" signature="6:114" ph="..." />
+                <marker date="1553915881505" expanded="false" signature="6:114" ph="..." />
                 <marker date="1553915881505" expanded="true" signature="157:662" ph="{...}" />
                 <marker date="1553915881505" expanded="true" signature="279:660" ph="{...}" />
                 <marker date="1553915881505" expanded="true" signature="398:560" ph="{...}" />
@@ -43,10 +43,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthPackValue.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="225">
               <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
-                <marker date="1553914341202" expanded="true" signature="6:100" ph="..." />
+                <marker date="1553914341202" expanded="false" signature="6:100" ph="..." />
                 <marker date="1553914341202" expanded="true" signature="146:651" ph="{...}" />
                 <marker date="1553914341202" expanded="true" signature="273:649" ph="{...}" />
                 <marker date="1553914341202" expanded="true" signature="392:555" ph="{...}" />
@@ -110,18 +110,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AmmoValue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoneyValue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LearningCSharp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthPackValue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
-    <option name="y" value="58" />
-    <option name="width" value="1639" />
+    <option name="x" value="-424" />
+    <option name="y" value="95" />
+    <option name="width" value="1640" />
     <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -130,8 +130,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -149,9 +152,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -224,11 +224,12 @@
       <workItem from="1553899643086" duration="173000" />
       <workItem from="1553900100226" duration="4784000" />
       <workItem from="1553913832451" duration="1841000" />
+      <workItem from="1554090839213" duration="863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66099000" />
+    <option name="totallyTimeSpent" value="66962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,9 +241,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="47" width="1311" height="768" extended-state="0" />
+    <frame x="-339" y="76" width="1312" height="768" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3277378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3330671" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -412,10 +413,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthPackValue.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="225">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
-            <marker date="1553914341202" expanded="true" signature="6:100" ph="..." />
+            <marker date="1553914341202" expanded="false" signature="6:100" ph="..." />
             <marker date="1553914341202" expanded="true" signature="146:651" ph="{...}" />
             <marker date="1553914341202" expanded="true" signature="273:649" ph="{...}" />
             <marker date="1553914341202" expanded="true" signature="392:555" ph="{...}" />
@@ -439,10 +440,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BulletDamage.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="270">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
-            <marker date="1553915881505" expanded="true" signature="6:114" ph="..." />
+            <marker date="1553915881505" expanded="false" signature="6:114" ph="..." />
             <marker date="1553915881505" expanded="true" signature="157:662" ph="{...}" />
             <marker date="1553915881505" expanded="true" signature="279:660" ph="{...}" />
             <marker date="1553915881505" expanded="true" signature="398:560" ph="{...}" />
@@ -453,12 +454,12 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
-            <marker date="1553902911000" expanded="false" signature="6:278" ph="..." />
-            <marker date="1553902911000" expanded="true" signature="321:568" ph="{...}" />
-            <marker date="1553902911000" expanded="true" signature="372:406" ph="{...}" />
-            <marker date="1553902911000" expanded="true" signature="419:566" ph="/* Showing Current Health on Health Bar Slider ... */" />
+            <marker date="1554091642318" expanded="true" signature="6:278" ph="..." />
+            <marker date="1554091642318" expanded="true" signature="321:515" ph="{...}" />
+            <marker date="1554091642318" expanded="true" signature="404:438" ph="{...}" />
+            <marker date="1554091642318" expanded="true" signature="464:513" ph="{...}" />
           </folding>
         </state>
       </provider>

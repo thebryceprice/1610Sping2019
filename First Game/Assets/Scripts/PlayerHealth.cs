@@ -11,17 +11,15 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     public int health;
+    public Slider healthSlider;
 
     private void Start()
     {
         health = 100;
     }
 
-        
-
- //Showing Current Health on Health Bar Slider
-    //private void Update()
-    //{
-    //    GetComponent<Slider>(healthBar).value = health;
-    //}
+    public void Update()
+    {
+        healthSlider.value = health;
+    }
 }
