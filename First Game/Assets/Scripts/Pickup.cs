@@ -7,7 +7,6 @@ using UnityEngine.Events;
 public class Pickup : MonoBehaviour
 {
     public UnityEvent ammoEvent;
-    public UnityEvent healthPackEvent;
     public UnityEvent moneyEvent;
     
     void OnTriggerEnter(Collider other)

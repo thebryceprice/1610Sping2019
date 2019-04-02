@@ -10,6 +10,7 @@
           <e p="AmmoValue.cs" t="Include" />
           <e p="BulletDamage.cs" t="Include" />
           <e p="ConditionalsInClass.cs" t="Include" />
+          <e p="Doors.cs" t="Include" />
           <e p="HealthPackValue.cs" t="Include" />
           <e p="HelicopterEvent.cs" t="Include" />
           <e p="LearningCSharp.cs" t="Include" />
@@ -26,6 +27,7 @@
             <e p="Mammal.cs" t="Include" />
             <e p="Pig.cs" t="Include" />
           </e>
+          <e p="Shooting.cs" t="Include" />
         </e>
       </e>
       <e p="First Game.sln" t="IncludeFlat" />
