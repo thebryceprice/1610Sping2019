@@ -12,7 +12,7 @@ public class Doors : MonoBehaviour
         //if Player collides with the Bar Doors...allow ButtonPress(W) to transform player in between doors
         if (other.gameObject.CompareTag("Player"))
                 {
-                    //transform player to 
+                    //transform Player to new specified scene's door
                 }
     }
 }
