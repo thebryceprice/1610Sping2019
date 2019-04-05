@@ -9,6 +9,8 @@ TagManager:
   - Money Pick Up
   - Bullet
   - Gun
+  - GameMenus
+  - Door
   layers:
   - Default
   - TransparentFX

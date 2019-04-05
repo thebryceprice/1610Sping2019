@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net.Mime;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameMenus : MonoBehaviour
 {
     public bool mouseClick;
+    public Text InputText;
 
 
     //When ESC game is clicked...bring up Pause Menu

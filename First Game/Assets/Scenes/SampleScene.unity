@@ -1022,6 +1022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseClick: 0
+  InputText: {fileID: 0}
 --- !u!114 &224634347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1540,7 +1541,7 @@ Transform:
   - {fileID: 390645501}
   - {fileID: 2047423833}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &361825345
 GameObject:
@@ -7876,7 +7877,7 @@ GameObject:
   - component: {fileID: 971135348}
   m_Layer: 0
   m_Name: Store Screen
-  m_TagString: Untagged
+  m_TagString: GameMenus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8416,7 +8417,7 @@ GameObject:
   - component: {fileID: 1222676095}
   m_Layer: 0
   m_Name: Death Screen
-  m_TagString: Untagged
+  m_TagString: GameMenus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8794,13 +8795,14 @@ GameObject:
   - component: {fileID: 1294537013}
   - component: {fileID: 1294537012}
   - component: {fileID: 1294537011}
+  - component: {fileID: 1294537015}
   m_Layer: 5
   m_Name: Game Menus
-  m_TagString: Untagged
+  m_TagString: GameMenus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1294537011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8876,13 +8878,27 @@ RectTransform:
   - {fileID: 1222676095}
   - {fileID: 971135348}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1294537015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294537010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fe3de34157a1241a520122715090fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseClick: 0
+  InputText: {fileID: 0}
 --- !u!1 &1301692921
 GameObject:
   m_ObjectHideFlags: 0
@@ -9090,6 +9106,7 @@ GameObject:
   - component: {fileID: 1333687550}
   - component: {fileID: 1333687551}
   - component: {fileID: 1333687552}
+  - component: {fileID: 1333687553}
   m_Layer: 0
   m_Name: BarDoorExterior
   m_TagString: Untagged
@@ -9167,11 +9184,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1333687549}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3.29, y: 4.77, z: 0.2}
   m_Center: {x: 0, y: -0.00000047683716, z: -0.00000046286732}
+--- !u!114 &1333687553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333687549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94362626c9f774545967082e160cd65e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: 1
 --- !u!1 &1339860570
 GameObject:
   m_ObjectHideFlags: 0
@@ -14062,7 +14092,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1414291877
 GameObject:
@@ -14586,14 +14616,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642696217}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 905, y: 21.2, z: -0.5}
+  m_LocalPosition: {x: 903.7, y: 21.2, z: -0.5}
   m_LocalScale: {x: 2.4740477, y: 2.4740477, z: 2.4740477}
   m_Children:
   - {fileID: 519420032}
   - {fileID: 2091761452}
   - {fileID: 1965333845}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1642696224
 MonoBehaviour:
@@ -14987,7 +15017,37 @@ Transform:
   - {fileID: 441612078}
   - {fileID: 2142930940}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1716740276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1716740277}
+  m_Layer: 0
+  m_Name: Tips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1716740277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716740276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 947.39355, y: 17.605059, z: -18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1761000548
 GameObject:
@@ -16180,6 +16240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseClick: 0
+  InputText: {fileID: 0}
 --- !u!1 &2043311009
 GameObject:
   m_ObjectHideFlags: 0
@@ -16414,7 +16475,7 @@ GameObject:
   - component: {fileID: 2077550045}
   m_Layer: 0
   m_Name: Pause Menu
-  m_TagString: Untagged
+  m_TagString: GameMenus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16555,7 +16616,7 @@ Transform:
   - {fileID: 85689994}
   - {fileID: 1778158843}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2131061214
 GameObject:
@@ -16771,7 +16832,7 @@ PrefabInstance:
     - target: {fileID: 7411441721299983445, guid: 06bee3dd133c595478689d0540c9140d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 43
+      value: 12.3
       objectReference: {fileID: 0}
     - target: {fileID: 7411441721299983445, guid: 06bee3dd133c595478689d0540c9140d,
         type: 3}
