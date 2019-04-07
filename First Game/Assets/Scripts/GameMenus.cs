@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net.Mime;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameMenus : MonoBehaviour
@@ -23,7 +24,7 @@ public class GameMenus : MonoBehaviour
         //Restart Game when Restart button is clicked
         if (mouseClick != true)
         {
-            Application.LoadLevel("SampleScene");          
+            SceneManager.LoadScene("SampleScene");          
         }
 
         

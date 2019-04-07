@@ -18,7 +18,8 @@ public class Doors : MonoBehaviour
         _gm = GameObject.FindGameObjectWithTag("GameMenus").GetComponent<GameMenus>();
     }
 
-
+    //when "e" is pressed while player is colliding with the door, load specified scene
+    
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -27,6 +28,9 @@ public class Doors : MonoBehaviour
                 if (Input.GetKeyDown("e"))
                 {
                     SceneManager.LoadScene(levelToLoad);
+                    
+                  //Transform character to coordinates of loaded scenes door
+                    //transform.gameObject.CompareTag("Player") =
                 }
         }
     }
@@ -50,9 +54,9 @@ public class Doors : MonoBehaviour
     
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Ammo Pick Up"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            _gm.InputText.text = ("");
+            _gm.InputText.text = ("Press E to enter");
         }
     }
 }
