@@ -10,11 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Doors.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="435">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <marker date="1554611893128" expanded="false" signature="6:181" ph="..." />
                 <marker date="1554611893128" expanded="true" signature="217:1435" ph="{...}" />
@@ -33,19 +33,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameMenus.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Destructibles.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="180">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
-                <marker date="1554611612418" expanded="false" signature="6:177" ph="..." />
-                <marker date="1554611612418" expanded="true" signature="217:833" ph="{...}" />
-                <marker date="1554611612418" expanded="true" signature="281:355" ph="/* When ESC game is clicked...bring up Pause Menu ... */" />
-                <marker date="1554611612418" expanded="true" signature="385:831" ph="{...}" />
-                <marker date="1554611612418" expanded="true" signature="423:499" ph="{...}" />
-                <marker date="1554611612418" expanded="true" signature="594:675" ph="{...}" />
-                <marker date="1554611612418" expanded="true" signature="782:825" ph="{...}" />
+                <marker date="1554689254350" expanded="false" signature="6:78" ph="..." />
+                <marker date="1554689254350" expanded="true" signature="122:397" ph="{...}" />
+                <marker date="1554689254350" expanded="true" signature="234:395" ph="{...}" />
+                <marker date="1554689254350" expanded="true" signature="291:389" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -58,6 +55,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthPackValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destructibles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -105,14 +103,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameMenus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Doors.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Destructables.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Destructibles.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-207" />
-    <option name="y" value="46" />
+    <option name="x" value="212" />
+    <option name="y" value="52" />
     <option name="width" value="1315" />
-    <option name="height" value="903" />
+    <option name="height" value="905" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -220,11 +220,13 @@
       <workItem from="1554353266207" duration="1415000" />
       <workItem from="1554422480648" duration="4096000" />
       <workItem from="1554610977390" duration="910000" />
+      <workItem from="1554688840224" duration="199000" />
+      <workItem from="1554689070216" duration="257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79213000" />
+    <option name="totallyTimeSpent" value="79669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,9 +238,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-165" y="37" width="1052" height="722" extended-state="0" />
+    <frame x="170" y="42" width="1052" height="724" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22278225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16733871" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -490,7 +492,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameMenus.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
             <marker date="1554611612418" expanded="false" signature="6:177" ph="..." />
             <marker date="1554611612418" expanded="true" signature="217:833" ph="{...}" />
@@ -503,10 +505,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Destructables.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Doors.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="435">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
           <folding>
             <marker date="1554611893128" expanded="false" signature="6:181" ph="..." />
             <marker date="1554611893128" expanded="true" signature="217:1435" ph="{...}" />
@@ -520,6 +529,19 @@
             <marker date="1554611893128" expanded="true" signature="1143:1224" ph="{...}" />
             <marker date="1554611893128" expanded="true" signature="1295:1433" ph="{...}" />
             <marker date="1554611893128" expanded="true" signature="1352:1427" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Destructibles.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <marker date="1554689254350" expanded="false" signature="6:78" ph="..." />
+            <marker date="1554689254350" expanded="true" signature="122:397" ph="{...}" />
+            <marker date="1554689254350" expanded="true" signature="234:395" ph="{...}" />
+            <marker date="1554689254350" expanded="true" signature="291:389" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -10,6 +10,7 @@
           <e p="AmmoValue.cs" t="Include" />
           <e p="BulletDamage.cs" t="Include" />
           <e p="ConditionalsInClass.cs" t="Include" />
+          <e p="Destructibles.cs" t="Include" />
           <e p="Doors.cs" t="Include" />
           <e p="GameMenus.cs" t="Include" />
           <e p="HealthPackValue.cs" t="Include" />
