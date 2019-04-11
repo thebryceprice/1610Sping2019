@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.XR.WSA.Input;
+using Object = System.Object;
 
 public class Doors : MonoBehaviour
 {
@@ -28,9 +29,6 @@ public class Doors : MonoBehaviour
                 if (Input.GetKeyDown("e"))
                 {
                     SceneManager.LoadScene(levelToLoad);
-                    
-                  //Transform character to coordinates of loaded scenes door
-                    //transform.gameObject.CompareTag("Player") =
                 }
         }
     }
@@ -46,17 +44,6 @@ public class Doors : MonoBehaviour
             {
                 SceneManager.LoadScene(levelToLoad);
             }
-        }
-    }
-
-    
-    
-    
-    void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            _gm.InputText.text = ("Press E to enter");
         }
     }
 }
