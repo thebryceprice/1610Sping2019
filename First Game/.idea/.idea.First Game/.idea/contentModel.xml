@@ -12,6 +12,7 @@
           <e p="ConditionalsInClass.cs" t="Include" />
           <e p="Destructibles.cs" t="Include" />
           <e p="Doors.cs" t="Include" />
+          <e p="EnemyAI.cs" t="Include" />
           <e p="GameMenus.cs" t="Include" />
           <e p="HealthPackValue.cs" t="Include" />
           <e p="HelicopterEvent.cs" t="Include" />
