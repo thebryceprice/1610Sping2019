@@ -13,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Doors.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="300">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <marker date="1555003256386" expanded="false" signature="6:211" ph="..." />
@@ -30,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -40,6 +40,23 @@
                 <marker date="1555219418979" expanded="true" signature="116:347" ph="{...}" />
                 <marker date="1555219418979" expanded="true" signature="188:209" ph="{...}" />
                 <marker date="1555219418979" expanded="true" signature="267:288" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shooting.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+              <folding>
+                <marker date="1555477348160" expanded="false" signature="6:100" ph="..." />
+                <marker date="1555477348160" expanded="true" signature="139:1424" ph="{...}" />
+                <marker date="1555477348160" expanded="true" signature="354:418" ph="{...}" />
+                <marker date="1555477348160" expanded="true" signature="445:1422" ph="{...}" />
+                <marker date="1555477348160" expanded="true" signature="492:1416" ph="{...}" />
+                <marker date="1555477348160" expanded="true" signature="754:873" ph="/* correction of incorrectly rotated bullets ... */" />
               </folding>
             </state>
           </provider>
@@ -108,7 +125,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthPackValue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletDamage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Shooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TipSystem.cs" />
@@ -119,12 +135,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Destructibles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Doors.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shooting.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-143" />
-    <option name="y" value="56" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-144" />
+    <option name="y" value="55" />
     <option name="width" value="1315" />
     <option name="height" value="905" />
   </component>
@@ -134,10 +151,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -156,7 +174,6 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,11 +255,12 @@
       <workItem from="1554689070216" duration="257000" />
       <workItem from="1555002229172" duration="1109000" />
       <workItem from="1555219349645" duration="78000" />
+      <workItem from="1555475974693" duration="1368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80856000" />
+    <option name="totallyTimeSpent" value="82224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,9 +272,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-114" y="45" width="1052" height="724" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1733871" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11744966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -450,18 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shooting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <marker date="1554178729268" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554178729268" expanded="true" signature="117:318" ph="{...}" />
-            <marker date="1554178729268" expanded="true" signature="295:316" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Pickup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -524,7 +530,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Destructables.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Doors.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="300">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <marker date="1555003256386" expanded="false" signature="6:211" ph="..." />
@@ -536,6 +542,19 @@
             <marker date="1555003256386" expanded="true" signature="903:1106" ph="{...}" />
             <marker date="1555003256386" expanded="true" signature="960:1100" ph="{...}" />
             <marker date="1555003256386" expanded="true" signature="1009:1090" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <marker date="1555219418979" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555219418979" expanded="true" signature="116:347" ph="{...}" />
+            <marker date="1555219418979" expanded="true" signature="188:209" ph="{...}" />
+            <marker date="1555219418979" expanded="true" signature="267:288" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -553,15 +572,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shooting.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="406">
+          <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
           <folding>
-            <marker date="1555219418979" expanded="false" signature="6:78" ph="..." />
-            <marker date="1555219418979" expanded="true" signature="116:347" ph="{...}" />
-            <marker date="1555219418979" expanded="true" signature="188:209" ph="{...}" />
-            <marker date="1555219418979" expanded="true" signature="267:288" ph="{...}" />
+            <marker date="1555477348160" expanded="false" signature="6:100" ph="..." />
+            <marker date="1555477348160" expanded="true" signature="139:1424" ph="{...}" />
+            <marker date="1555477348160" expanded="true" signature="354:418" ph="{...}" />
+            <marker date="1555477348160" expanded="true" signature="445:1422" ph="{...}" />
+            <marker date="1555477348160" expanded="true" signature="492:1416" ph="{...}" />
+            <marker date="1555477348160" expanded="true" signature="754:873" ph="/* correction of incorrectly rotated bullets ... */" />
           </folding>
         </state>
       </provider>

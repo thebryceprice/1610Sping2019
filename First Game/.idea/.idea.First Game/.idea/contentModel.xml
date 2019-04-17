@@ -32,6 +32,7 @@
             <e p="Pig.cs" t="Include" />
           </e>
           <e p="Shooting.cs" t="Include" />
+          <e p="Shooting1.cs" t="Include" />
         </e>
       </e>
       <e p="First Game.sln" t="IncludeFlat" />
