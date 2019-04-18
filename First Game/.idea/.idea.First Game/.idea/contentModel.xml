@@ -11,6 +11,7 @@
           <e p="BulletDamage.cs" t="Include" />
           <e p="ConditionalsInClass.cs" t="Include" />
           <e p="Destructibles.cs" t="Include" />
+          <e p="DONTDESTORYONLOAD.cs" t="Include" />
           <e p="Doors.cs" t="Include" />
           <e p="EnemyAI.cs" t="Include" />
           <e p="GameMenus.cs" t="Include" />

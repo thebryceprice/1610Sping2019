@@ -16,7 +16,7 @@ public class Doors : MonoBehaviour
     
     void Start()
     {
-        _gm = GameObject.FindGameObjectWithTag("GameMenus").GetComponent<GameMenus>();
+       // _gm = GameObject.FindGameObjectWithTag("GameMenus").GetComponent<GameMenus>();
     }
 
     //when "e" is pressed while player is colliding with the door, load specified scene
@@ -25,7 +25,7 @@ public class Doors : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-                _gm.InputText.text = ("Press [E] to Enter");
+                //_gm.InputText.text = ("Press [E] to Enter");
                 if (Input.GetKeyDown("e"))
                 {
                     SceneManager.LoadScene(levelToLoad);
