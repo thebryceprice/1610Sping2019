@@ -48,15 +48,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shooting.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+            <state relative-caret-position="540">
+              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
               <folding>
-                <marker date="1555477348160" expanded="false" signature="6:100" ph="..." />
-                <marker date="1555477348160" expanded="true" signature="139:1424" ph="{...}" />
-                <marker date="1555477348160" expanded="true" signature="354:418" ph="{...}" />
-                <marker date="1555477348160" expanded="true" signature="445:1422" ph="{...}" />
-                <marker date="1555477348160" expanded="true" signature="492:1416" ph="{...}" />
-                <marker date="1555477348160" expanded="true" signature="754:873" ph="/* correction of incorrectly rotated bullets ... */" />
+                <marker date="1555561282301" expanded="false" signature="6:100" ph="..." />
+                <marker date="1555561282301" expanded="true" signature="139:1428" ph="{...}" />
+                <marker date="1555561282301" expanded="true" signature="354:375" ph="{...}" />
+                <marker date="1555561282301" expanded="true" signature="402:1426" ph="{...}" />
+                <marker date="1555561282301" expanded="true" signature="449:1420" ph="{...}" />
+                <marker date="1555561282301" expanded="true" signature="711:830" ph="/* correction of incorrectly rotated bullets ... */" />
+                <marker date="1555561282301" expanded="true" signature="1078:1169" ph="/* bullets are being pushed by the amount set ... */" />
               </folding>
             </state>
           </provider>
@@ -140,7 +141,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-144" />
+    <option name="x" value="-145" />
     <option name="y" value="55" />
     <option name="width" value="1315" />
     <option name="height" value="905" />
@@ -151,11 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -174,6 +170,11 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,11 +257,12 @@
       <workItem from="1555002229172" duration="1109000" />
       <workItem from="1555219349645" duration="78000" />
       <workItem from="1555475974693" duration="1368000" />
+      <workItem from="1555561019631" duration="265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82224000" />
+    <option name="totallyTimeSpent" value="82489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,7 +276,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11744966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118791945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -574,15 +576,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shooting.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+        <state relative-caret-position="540">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
           <folding>
-            <marker date="1555477348160" expanded="false" signature="6:100" ph="..." />
-            <marker date="1555477348160" expanded="true" signature="139:1424" ph="{...}" />
-            <marker date="1555477348160" expanded="true" signature="354:418" ph="{...}" />
-            <marker date="1555477348160" expanded="true" signature="445:1422" ph="{...}" />
-            <marker date="1555477348160" expanded="true" signature="492:1416" ph="{...}" />
-            <marker date="1555477348160" expanded="true" signature="754:873" ph="/* correction of incorrectly rotated bullets ... */" />
+            <marker date="1555561282301" expanded="false" signature="6:100" ph="..." />
+            <marker date="1555561282301" expanded="true" signature="139:1428" ph="{...}" />
+            <marker date="1555561282301" expanded="true" signature="354:375" ph="{...}" />
+            <marker date="1555561282301" expanded="true" signature="402:1426" ph="{...}" />
+            <marker date="1555561282301" expanded="true" signature="449:1420" ph="{...}" />
+            <marker date="1555561282301" expanded="true" signature="711:830" ph="/* correction of incorrectly rotated bullets ... */" />
+            <marker date="1555561282301" expanded="true" signature="1078:1169" ph="/* bullets are being pushed by the amount set ... */" />
           </folding>
         </state>
       </provider>

@@ -14,7 +14,7 @@ public class Shooting : MonoBehaviour
 
     private void Start()
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void Update()
@@ -37,6 +37,7 @@ public class Shooting : MonoBehaviour
             
             
             //bullets are being pushed by the amount set
+            //FIX HERE TO HAVE PROPER SHOOTING
             Temporary_Rigidbody.AddForce(transform.right * bulletMomentum);
             
             
