@@ -22,5 +22,5 @@ public class EnemyAI : MonoBehaviour
    {
       //Enemy will chase player by trying to match Players position
       _nav.SetDestination(_player.position);
-   }
+   } 
 }

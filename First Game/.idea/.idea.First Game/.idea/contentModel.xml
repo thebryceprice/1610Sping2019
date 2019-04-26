@@ -14,6 +14,8 @@
           <e p="DONTDESTORYONLOAD.cs" t="Include" />
           <e p="Doors.cs" t="Include" />
           <e p="EnemyAI.cs" t="Include" />
+          <e p="EnemyHealth.cs" t="Include" />
+          <e p="EnemyShooting.cs" t="Include" />
           <e p="GameMenus.cs" t="Include" />
           <e p="HealthPackValue.cs" t="Include" />
           <e p="HelicopterEvent.cs" t="Include" />
@@ -33,16 +35,13 @@
             <e p="Pig.cs" t="Include" />
           </e>
           <e p="Shooting.cs" t="Include" />
-          <e p="Shooting1.cs" t="Include" />
         </e>
       </e>
       <e p="First Game.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

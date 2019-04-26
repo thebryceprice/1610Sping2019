@@ -11,9 +11,11 @@ public class Shooting : MonoBehaviour
     public GameObject bullet;
     //forward push on instance
     public float bulletMomentum;
+    public MoveCharacter moveCharacter;
 
     private void Start()
     {
+        moveCharacter = transform.parent.GetComponent<MoveCharacter>();
         
     }
 
@@ -38,7 +40,16 @@ public class Shooting : MonoBehaviour
             
             //bullets are being pushed by the amount set
             //FIX HERE TO HAVE PROPER SHOOTING
-            Temporary_Rigidbody.AddForce(transform.right * bulletMomentum);
+
+            if (moveCharacter.facingRight)
+            {
+                Temporary_Rigidbody.AddForce(transform.right * bulletMomentum);
+            }
+            else
+            {
+                Temporary_Rigidbody.AddForce(-transform.right * bulletMomentum);
+            }
+            
             
             
             

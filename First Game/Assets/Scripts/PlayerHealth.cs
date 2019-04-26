@@ -30,7 +30,9 @@ public class PlayerHealth : MonoBehaviour
         if (health <= 0)
         {
             //reload the scene
+            
             Application.LoadLevel("SampleScene");
+            Destroy(gameObject);
         }
     }
 }

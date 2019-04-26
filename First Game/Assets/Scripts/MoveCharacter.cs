@@ -11,6 +11,7 @@ public class MoveCharacter : MonoBehaviour
     public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
     public float Speed = 3;
+    public bool facingRight = true;
 
     private CharacterController controller;
     private Vector3 position;
@@ -43,11 +44,13 @@ public class MoveCharacter : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A))
         {
             transform.localScale = new Vector3(-scale.x, scale.y, scale.z);
+            facingRight = false;
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
             transform.localScale = new Vector3(scale.x, scale.y, scale.z);
+            facingRight = true;
         }
         
         if (controller.isGrounded && Input.GetKeyDown(KeyCode.Space))

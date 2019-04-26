@@ -17,6 +17,11 @@ public class BulletDamage : MonoBehaviour
             //Calling Player health and then changing Player health variable
             other.GetComponent<PlayerHealth>().health -= damage;
         }
+        if (other.GetComponent<EnemyHealth>() != null)
+        {
+            //Calling Player health and then changing Player health variable
+            other.GetComponent<EnemyHealth>().enemyHealth -= damage;
+        }
 
         
         //Setting Bullet object to be inactive
