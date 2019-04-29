@@ -7,6 +7,13 @@ public class PauseMenu : MonoBehaviour
 {
     //can be viewed by other scripts, BUT they can only check
     public static bool gamePaused = false;
+    public GameObject pauseMenu;
+
+
+    private void Start()
+    {
+        pauseMenu.SetActive(false);
+    }
 
     private void Update()
     {
@@ -22,19 +29,27 @@ public class PauseMenu : MonoBehaviour
             }
         }
     }
+    
 
-
-    void Resume ()
+    public void Resume ()
     {
-        //pauseMenuUI.SetActive(false);
+        pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         gamePaused = false;
     }
 
-
-    void Pause ()
+    public void Restart()
     {
-        //PauseMenu.SetActive(true);
+        Application.LoadLevel("SampleScene");
+        Time.timeScale = 1f;
+        gamePaused = false;
+        pauseMenu.SetActive(false);
+    }
+
+
+    public void Pause ()
+    {
+        pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         gamePaused = true;
     }

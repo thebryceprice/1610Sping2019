@@ -21,6 +21,7 @@
           <e p="HelicopterEvent.cs" t="Include" />
           <e p="InputSystem.cs" t="Include" />
           <e p="LearningCSharp.cs" t="Include" />
+          <e p="MainMenu.cs" t="Include" />
           <e p="MoneyValue.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
