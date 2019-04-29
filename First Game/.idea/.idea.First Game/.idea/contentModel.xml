@@ -24,6 +24,7 @@
           <e p="MoneyValue.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
+          <e p="PauseMenu.cs" t="Include" />
           <e p="Pickup.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
@@ -41,7 +42,9 @@
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
   </component>
 </project>
